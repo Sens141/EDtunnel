@@ -1,11 +1,11 @@
 name = "sens141"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
-# node_compat = true
+node_compat = true
 workers_dev = true
 
 [vars]
 PROXYIP = "34.143.192.60"
 UUID = "828a6d27-04f5-4ad2-92f1-4f064476a30b"
-# SOCKS5 = "127.0.0.1:1080"
-# SOCKS5_RELAY = "true"
+SOCKS5 = "127.0.0.1:1080"
+SOCKS5_RELAY = "true"
